@@ -39,13 +39,12 @@ body{
     padding:25px;
     border-radius:10px;
     margin:10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .light-font{
     color: hsl(0, 0%, 100%);
 }
 .dark-font{
-    color:hsl(0, 0%, 25%);;
+    color:hsl(0, 0%, 25%);
 }
 .purple-card{
     background-color: hsl(263, 55%, 52%);
@@ -72,6 +71,7 @@ body{
 }
 .testimonial-heading{
     font-size:20px;
+    line-height: 28px;
     font-weight: 600;
 }
 .review{
