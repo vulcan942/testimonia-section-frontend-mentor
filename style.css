@@ -7,7 +7,7 @@ body{
     margin:0;
     background-color: hsl(210, 46%, 95%);
 }
-.wrapper{
+/* .wrapper{
     box-sizing: border-box;
     display:grid;
     grid-template-columns: 10% 20% 20% 20% 20% 10%;
@@ -15,7 +15,7 @@ body{
     grid-template-areas:
     ". card1 card1 card2 card5 ."
     ". card3 card4 card4 card5 ."
-}
+} */
 .card1{
     grid-area: card1;
 }
@@ -89,9 +89,20 @@ img{
     width:28px;
     margin-right:14px;
 }
+@media screen and (min-width: 840px) {
+    .wrapper{
+        box-sizing: border-box;
+        display:grid;
+        grid-template-columns: 10% 20% 20% 20% 20% 10%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+        ". card1 card1 card2 card5 ."
+        ". card3 card4 card4 card5 ."
+    }
+  }
 @media screen and (max-width: 840px) {
     .wrapper{
-        display: block;
+        height:100%;
         padding:10px;
     }
   }
